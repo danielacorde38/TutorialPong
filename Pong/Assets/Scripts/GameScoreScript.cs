@@ -104,6 +104,7 @@ public class GameScoreScript : MonoBehaviour
             {
 
                 LeanTween.moveLocalX(textLabelGoal, endAnimationPosition, 0.5f).setEaseInCirc();
+
                 LeanTween.scale(textLabelGoal, Vector3.one, 0f);
 
 
